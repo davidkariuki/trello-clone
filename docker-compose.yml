@@ -1,13 +1,13 @@
 version: "3.8"
 services:
-  client:
+  trello:
     tty: true
     stdin_open: true
-    container_name: client
+    container_name: trello
     build:
       context: ./client/
     ports:
-      - 5000:3000
+      - 4000:3000
     volumes:
       - ./client/:/app
       - /app/node_modules

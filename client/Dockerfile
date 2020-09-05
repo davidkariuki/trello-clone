@@ -6,6 +6,6 @@ COPY package*.json /app/
 RUN npm install --no-optional
 COPY . .
 
-EXPOSE 5000
+EXPOSE 4000
 
 ENTRYPOINT ["npm", "start"]
