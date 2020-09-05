@@ -1,2 +1,3 @@
-# blog
-Repository for davidkariuki.com
+## trello clone
+
+Following newline tutorial
